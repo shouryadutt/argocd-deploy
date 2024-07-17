@@ -10,7 +10,7 @@ spec:
   project: default
   source: 
     path: mongodb
-    repoURL: "https://github.com/srinivasarao2468/stnupai/blob/JHC-36/mongodb/mongo.yaml"
+    repoURL: "https://github.com/srinivasarao2468/stnupai"
     targetRevision: JHC-36
   syncPolicy:
     syncOptions:
