@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata: 
+  name: database
+  namespace: argocd
+spec: 
+  destination: 
+    namespace: default
+    server: "https://kubernetes.default.svc"
+  project: default
+  source: 
+    path: mongodb
+    repoURL: "https://github.com/srinivasarao2468/stnupai/blob/JHC-36/mongodb/mongo.yaml"
+    targetRevision: master
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=False
