@@ -10,7 +10,7 @@ spec:
   project: default
   source: 
     path: realtime-project
-    repoURL: "https://github.com/srinivasarao2468/stnupai/tree/JHC-36/realtime-project"
+    repoURL: "https://github.com/srinivasarao2468/stnupai"
     targetRevision: JHC-36
   syncPolicy:
     syncOptions:
