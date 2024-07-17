@@ -11,7 +11,7 @@ spec:
   source: 
     path: mongodb
     repoURL: "https://github.com/srinivasarao2468/stnupai/blob/JHC-36/mongodb/mongo.yaml"
-    targetRevision: master
+    targetRevision: JHC-36
   syncPolicy:
     syncOptions:
       - CreateNamespace=True
