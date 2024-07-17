@@ -13,5 +13,8 @@ spec:
     repoURL: "https://github.com/srinivasarao2468/stnupai"
     targetRevision: JHC-36
   syncPolicy:
+    automated: # Enable automated sync
+      prune: true # Prune resources that are no longer defined in Git
+      selfHeal: true # Automatically sync if ArgoCD detects any drift from the desired state
     syncOptions:
       - CreateNamespace=True
