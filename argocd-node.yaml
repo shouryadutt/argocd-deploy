@@ -11,7 +11,7 @@ spec:
   source: 
     path: realtime-project
     repoURL: "https://github.com/srinivasarao2468/stnupai/tree/JHC-36/realtime-project"
-    targetRevision: master
+    targetRevision: JHC-36
   syncPolicy:
     syncOptions:
       - CreateNamespace=True
